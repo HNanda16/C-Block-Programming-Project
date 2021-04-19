@@ -15,6 +15,11 @@
 		479C791E260B86F700767313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479C791C260B86F700767313 /* LaunchScreen.storyboard */; };
 		479C7929260B86F700767313 /* Financial_Management_ToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C7928260B86F700767313 /* Financial_Management_ToolTests.swift */; };
 		479C7934260B86F700767313 /* Financial_Management_ToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C7933260B86F700767313 /* Financial_Management_ToolUITests.swift */; };
+		47A8CEC5262C5CE5009930DA /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A8CEC4262C5CE5009930DA /* HomePage.swift */; };
+		47A8CECA262C5D23009930DA /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A8CEC9262C5D23009930DA /* BankAccount.swift */; };
+		47A8CECF262C7C7D009930DA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A8CECE262C7C7D009930DA /* LoginPage.swift */; };
+		47A8CED5262C7FA6009930DA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A8CED4262C7FA6009930DA /* WelcomeView.swift */; };
+		47A8CEE2262C9A7A009930DA /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A8CEE1262C9A7A009930DA /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		479C792F260B86F700767313 /* Financial Management ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial Management ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		479C7933260B86F700767313 /* Financial_Management_ToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financial_Management_ToolUITests.swift; sourceTree = "<group>"; };
 		479C7935260B86F700767313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47A8CEC4262C5CE5009930DA /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		47A8CEC9262C5D23009930DA /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		47A8CECE262C7C7D009930DA /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		47A8CED4262C7FA6009930DA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		47A8CEE1262C9A7A009930DA /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				479C7911260B86F600767313 /* AppDelegate.swift */,
 				479C7913260B86F600767313 /* SceneDelegate.swift */,
 				479C7915260B86F600767313 /* ContentView.swift */,
+				47A8CED4262C7FA6009930DA /* WelcomeView.swift */,
+				47A8CECE262C7C7D009930DA /* LoginPage.swift */,
+				47A8CEC4262C5CE5009930DA /* HomePage.swift */,
+				47A8CEE1262C9A7A009930DA /* ViewRouter.swift */,
+				47A8CEC9262C5D23009930DA /* BankAccount.swift */,
 				479C7917260B86F700767313 /* Assets.xcassets */,
 				479C791C260B86F700767313 /* LaunchScreen.storyboard */,
 				479C791F260B86F700767313 /* Info.plist */,
@@ -268,7 +283,12 @@
 			files = (
 				479C7912260B86F600767313 /* AppDelegate.swift in Sources */,
 				479C7914260B86F600767313 /* SceneDelegate.swift in Sources */,
+				47A8CECA262C5D23009930DA /* BankAccount.swift in Sources */,
 				479C7916260B86F600767313 /* ContentView.swift in Sources */,
+				47A8CECF262C7C7D009930DA /* LoginPage.swift in Sources */,
+				47A8CEC5262C5CE5009930DA /* HomePage.swift in Sources */,
+				47A8CED5262C7FA6009930DA /* WelcomeView.swift in Sources */,
+				47A8CEE2262C9A7A009930DA /* ViewRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
